@@ -5,7 +5,7 @@ import image from "../src/cloudy.png"
 
 export default function App() {
   let [weatherData, setWeatherData] = useState({});
-  let [city, setCity] = useState("Mumbai");
+  let [city, setCity] = useState("Nagpur");
   async function loadWeatherData() {
 
     try {
@@ -32,7 +32,7 @@ export default function App() {
       }} />
       <h3>City:{weatherData.name}</h3>
       <h2>Temperature<br />{(weatherData?.main?.temp - 273).toFixed(2)}°C </h2>
-      <h3>Visibility:{weatherData?.visibility} meters</h3>
+      <h3>Visibility:  {weatherData?.visibility} meters</h3>
       <img src={image} className="image" />
 
     </div>
