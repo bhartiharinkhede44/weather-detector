@@ -5,3 +5,23 @@ text-align: center;
     height: 90px;
     margin-top: 20px;
  }
+ .search{
+   font-size: larger;
+   padding: 8px;
+   border-radius: 20px;
+   box-shadow: inset;
+ }
+ .contain-container{
+   display: flex;
+   display: block;
+
+ }
+ .card-container{
+   display: flex;
+   justify-content: center;
+ }
+ .temperature{
+   padding: 20px;
+   margin: 20px;
+   background-color: rgba(240, 248, 255, 0.498);
+ }
